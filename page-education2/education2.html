@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 900px;
+
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Education التعليم</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Education  &nbsp التعليم</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 1.25rem" href="../index.html">الصفحة الرئيسية &nbsp Home  <span class="sr-only">(current)</span></a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-3">
+                <h2 class="my-4">Student Enrollment, Requirements and More <h5 style="text-align: right; margin-top: -20px;margin-right: 58px">تسجيل الطلاب، المتطلبات ومزيد</h5></h2> <br/>
+                <div class="list-group">
+
+                    <a style="background-color: #f5f5f5" href="../page-education/Education.html" class="list-group-item">Finding Your School<div style="font-size:14px; text-align: right;">تسجيل الطلاب، المتطلبات ومزيد</div></a>
+                    <a style="background-color: #f5f5f5" href="../page-education3/Education3.html" class="list-group-item">Libraries<div style="font-size:14px; text-align: right;">المكتبات</div></a>
+
+                    <br/><br/><br/>
+                    <button  style="position: fixed;" class="button button4"><a href="https://www.microsofttranslator.com/bv.aspx?from=en&to=ar&r=true&a=https%3A%2F%2Fsettlement.org%2Fontario%2Feducation%2F%23EASS" style="text-decoration:none; color: green;font-weight: bolder;"  target="none" id="myImg">View this page in Arabic <i class="right"></i><br/>اعرض الصفحة باللغة العربية</a></button>
+                    
+                </div>
+
+            </div>
+            <!-- /.col-lg-3 -->
+
+            <div class="col-lg-9">
+
+                <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="img/portfolio/schools.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/portfolio/schools2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/portfolio/schools3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h4>Visit <a target="blank" class="moreplaces" href="http://settlement.org/ontario/education/#EASS">settlement.org</a> to find information on enrolling your child and meeting the requirements in Ontario <br/> <br/>
+                <div style="text-align: right;">للعثور على معلومات عن تسجيل اطفالك و متطلبات المدرسة<a target="blank" class="moreplaces" href="http://settlement.org/ontario/education/#EASS"> settlement.org</a> زور </div></h4>
+
+
+
+
+
+                
+            </div>
+            <!-- /.col-lg-9 -->
+
+
+        </div>
+        <!-- /.row -->
+
+
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Footer -->
+    
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

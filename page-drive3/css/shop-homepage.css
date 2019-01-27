@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+
+
+.foodnav a{
+text-decoration: none;
+
+font-size: 16.4px;
+
+}
+.foodnav{
+	margin-left: -18px !important;
+}
+
+
+
+.foodnav a:link, a:visited {
+    background-color: white;
+    color: black;
+    
+
+}
+
+a:link{
+  color: black;
+}
+
+
+.foodnav a:hover, a:active {
+    background-color: #47b1f7;
+}
+
+
+.glyphicon-star {
+  font-size: 40px;
+  color: #e67e22;
+  &.half {
+    position: relative;
+    &:before {
+      position: relative;
+      z-index: 9;
+      width: 47%;
+      display: block;
+      overflow: hidden;
+    }
+    &:after {
+      content: '\e006';
+      position: absolute;
+      z-index: 8;
+      color: #bdc3c7;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+.morestores {
+  margin-left: 360px ;
+}
